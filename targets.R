@@ -1,5 +1,5 @@
 
-
+library(tidyverse)
 elex %>% 
   sample_n(100) %>% 
   group_split(cntry) %>% 
@@ -55,6 +55,38 @@ page_info_dat2 <- elex %>%
                        include_info=c("page_info"))
   })
 
+
+topspenders %>% 
+  left_join(maaaap) %>% 
+  group_by(party) %>% 
+  summarize(dollar_spend = sum(dollar_spend)) %>% 
+  ungroup() %>% 
+  arrange(desc(dollar_spend)) %>% 
+  drop_na(party) %>%
+  mutate(perc = round(dollar_spend/sum(dollar_spend)*100)) %>% 
+  View()
+
+topspenders <- elex %>% 
+  left_join(toppers) %>% 
+  filter(dollar_spend >= dollar) %>% 
+  group_by(cntry, page_id) %>% 
+  summarize(dollar_spend= sum(dollar_spend)) %>% 
+  ungroup() %>% 
+  # slice(1000:1539) %>% 
+  arrange(desc(dollar_spend)) %>% 
+  left_join(all_spends %>% distinct(page_id, page_name)) %>% 
+  left_join(page_info_dat %>% 
+              bind_rows(page_info_dat2) %>% 
+              bind_rows(page_info_dat3) %>% select(page_id, page_category)) 
+
+openxlsx::write.xlsx(topspenders, file = "topspenders.xlsx")
+
+topcats <- topspenders %>% 
+  group_by(page_category) %>% 
+  summarize(dollar_spend = sum(dollar_spend)) %>% 
+  arrange(desc(dollar_spend))
+  
+openxlsx::write.xlsx(topcats, file = "topcats.xlsx")
 
 remainers <- elex %>% 
   left_join(toppers) %>% 
@@ -145,3 +177,37 @@ targets <- full_list %>%
     
     return(elex)
   })
+
+newwcats <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTxGpHZmtgP7DpsvLpm_xiOf9dKntem0UlBDTuJrO9tZG3CgqYsh4SxNEQDX6Zh-nFNun7UhnkLMY2X/pub?gid=1691972644&single=true&output=csv")
+
+cat_mapping <- newwcats %>% 
+  mutate(party = case_when(
+    !is.na(ngo_new_category) ~ ngo_new_category,
+    electoral == 1 ~ "Electoral",
+    !is.na(company_new_category) ~ company_new_category,
+    
+    media == 1 ~ "Media",
+    education == 1 ~ "Education",
+    entertainment == 1 ~ "Entertainment"
+  )) %>% 
+  drop_na(party) %>% 
+  filter(party != "Other") %>% 
+  select(page_category, party)
+
+saveRDS(cat_mapping, "data/cat_mapping.rds")
+
+page_info_dat %>% 
+  bind_rows(page_info_dat2) %>% 
+  bind_rows(page_info_dat3) %>% 
+  as_tibble() %>% 
+  left_join(elex %>% group_by(cntry, page_id) %>% summarize(dollar_spend = sum(dollar_spend)) %>% distinct(page_id, dollar_spend)) %>% 
+  group_by(page_category, cntry) %>% 
+  summarize(dollar_spend = sum(dollar_spend),
+            ntimes = n()) %>% 
+  ungroup() 
+
+
+targets %>% 
+  filter(page_id %in% topspenders$page_id) %>% 
+  filter(type == "detailed") %>% 
+  count(value, sort = T) %>% View()

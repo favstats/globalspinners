@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Spending",
+    "section": "",
+    "text": "Here you can see the expenditures of political parties in the lead-up to the elections according to the latest data.\nDuring this period, political parties spent a total of $79,428,590 and displayed 132097 advertisements on Meta.\n\n\n\n\n\n\n  \n    \n      \n      Number of Advertisers\n      Top Spenders\n      Number of Ads\n      Total Spend\n    \n  \n  \n    Electoral\n\n296\n\n1. Joe Biden ($8,066,439)2. Xóchitl Gálvez Ruiz ($2,704,209)3. Bharatiya Janata Party (BJP) ($2,284,713)\n\n92,987\n\n$53,498,098\n\n    Media\n\n67\n\n1. Badabun ($602,858)2. Facts For Peace ($505,938)3. Brasil Paralelo ($455,147)\n\n8,271\n\n$6,005,171\n\n    Education\n\n11\n\n1. Americans for Prosperity ($2,529,764)2. Hillsdale College ($1,012,252)3. Hillsdale College Online Courses ($637,042)\n\n17,480\n\n$5,584,951\n\n    Finance and Business Services\n\n27\n\n1. JPMorgan Chase & Co. ($808,070)2. Bank of America ($676,518)3. Fair Pay For All ($327,005)\n\n3,846\n\n$4,226,243\n\n    Energy and Natural Resources\n\n12\n\n1. Shell USA ($1,257,783)2. ExxonMobil ($364,265)3. Vattenfall ($255,607)\n\n733\n\n$3,050,042\n\n    Transportation and Automotive\n\n3\n\n1. Honda ($920,921)2. Toyota USA ($812,422)3. Riverside County Transportation Commission ($317,199)\n\n1,692\n\n$2,050,542\n\n    Consumer Goods and Retail\n\n9\n\n1. I Love My Freedom ($695,425)2. American Beverage ($518,313)3. Systembolaget ($231,491)\n\n1,528\n\n$1,588,563\n\n    Charity\n\n7\n\n1. Medical Aid for Palestinians ($841,487)2. Shelter ($203,884)3. WWF Verdens naturfond ($108,485)\n\n1,158\n\n$1,419,363\n\n    Entertainment\n\n5\n\n1. The Tuttle Twins ($352,898)2. Maga.com ($253,817)3. The TRUST FALL: Julian Assange - Documentary ($97,067)\n\n1,394\n\n$808,881\n\n    Healthcare and Education\n\n3\n\n1. PhRMA ($307,617)2. Instituto de Certificación Empresarial ICEMéxico ($213,101)3. Landesspital Liechtenstein ($482)\n\n246\n\n$521,200\n\n    Environment & animal protection\n\n4\n\n1. Earthjustice ($315,909)2. Danmarks Naturfredningsforening ($137,843)3. Twpca-台灣野良犬照護協會 ($39,142)\n\n410\n\n$502,922\n\n    Telecommunications\n\n2\n\n1. Siga Antenado ($65,818)2. Massive Caller ($65,474)\n\n2,321\n\n$131,292\n\n    Engineering & Construction\n\n1\n\n1. Bangur Cement ($41,322)\n\n31\n\n$41,322"
+  },
+  {
+    "objectID": "detailed.html",
+    "href": "detailed.html",
+    "title": "Detailed Targeting",
+    "section": "",
+    "text": "Top Targeted AudiencesTop Excluded Audiences\n\n\nThe chart below displays the most utilized targeting criteria by political parties on Meta, based on the amounts spent.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmong the detailed options offered by Meta, the chart below shows the most excluded target audiences per party. The ranking is based on the amounts spent."
+  },
+  {
+    "objectID": "targeting.html",
+    "href": "targeting.html",
+    "title": "Spending per Targeting",
+    "section": "",
+    "text": "These charts show the groups that political parties target with their advertisements leading up to the elections, according to the latest data. The focus is on Meta’s platforms (Facebook and Instagram) because they offer the most detailed targeting options for political advertisements.\nHow much did the campaigns of political parties spend on different audiences? The charts below show both the total and the expenditures per party.\n\nNote: Different targeting criteria may overlap, so the outcome may not necessarily add up to 100%.\n\n\nTotal\n\n\n\n\n\n\n\n\n\nBy Page Type\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n:::"
+  },
+  {
+    "objectID": "sdfsdf.html",
+    "href": "sdfsdf.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "sdfsdf.html#running-code",
+    "href": "sdfsdf.html#running-code",
+    "title": "Untitled",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "demographics.html",
+    "href": "demographics.html",
+    "title": "Demographics",
+    "section": "",
+    "text": "The following graphs illustrate how parties target different age groups and the percentage of the budget allocated to them.\n\nNote: targeting criteria may overlap, so the total may not necessarily be 100%.\n\n::: panel-tabset"
+  },
+  {
+    "objectID": "demographics.html#gender-targeting",
+    "href": "demographics.html#gender-targeting",
+    "title": "Demographics",
+    "section": "Gender Targeting",
+    "text": "Gender Targeting\nThe graphs below show how parties target gender and what percentage of the budget was spent on it.\n\nNote: targeting criteria may overlap, so the total may not necessarily be 100%.\n\n::: panel-tabset"
+  },
+  {
+    "objectID": "demographics.html#language-targeting",
+    "href": "demographics.html#language-targeting",
+    "title": "Demographics",
+    "section": "Language Targeting",
+    "text": "Language Targeting\nThe following graphs show how parties use different languages as focus groups and the percentage of the budget allocated to them.\n\nNote: targeting criteria may overlap, so the total may not necessarily be 100%.\n\n::: panel-tabset"
+  },
+  {
+    "objectID": "demographics.html#targeting-based-on-employment-or-education-instituation",
+    "href": "demographics.html#targeting-based-on-employment-or-education-instituation",
+    "title": "Demographics",
+    "section": "Targeting based on Employment or Education Instituation",
+    "text": "Targeting based on Employment or Education Instituation\nThe following graphs depict how parties utilize various job sectors and types of education as focus groups and the percentage of the budget allocated to them. The next graph focuses on educational levels.\n\nNote: targeting criteria may overlap, so the total may not necessarily be 100%.\n\n::: panel-tabset"
+  },
+  {
+    "objectID": "demographics.html#education-levels-targeting",
+    "href": "demographics.html#education-levels-targeting",
+    "title": "Demographics",
+    "section": "Education Levels Targeting",
+    "text": "Education Levels Targeting\nThe graphs below illustrate how parties target various education levels as focus groups and the percentage of the budget allocated to each.\n\nNote: targeting criteria may overlap, so the total may not necessarily be 100%.\n\n::: panel-tabset"
+  },
+  {
+    "objectID": "demographics.html#relationship-status-targeting",
+    "href": "demographics.html#relationship-status-targeting",
+    "title": "Demographics",
+    "section": "Relationship Status Targeting",
+    "text": "Relationship Status Targeting\nThe following graphs reveal how political parties utilize different relationship statuses as focus groups and the percentage of the budget allocated to them.\n\nNote: targeting criteria may overlap, so the total may not necessarily be 100%.\n\n::: panel-tabset"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Global Spinners",
+    "section": "",
+    "text": "Methodology\nIn collaboration with Who Targets Me, we monitored 11209 political advertisers to better understand how campaigns use different targeting methods made available by Meta. To do this, we used data from the Meta Ad Library, using the new ‘Audience’ data which gives some detail on how pages target their ads.\n\n\n\n\n\n\nNote\n\n\n\nMeta only provides 7, 30 and 90 days windows for the targeting data in their Ad Library. Meta’s data also lags by a few days. Report will be updated as soon as new data is available.\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nThe data shown in this dashboard is based on the platform’s respective ad libraries which are known to be sometimes incomplete (Edelson et al. 2020; Silva et al. 2020). For this reason the data shown here might not reflect the full picture nor all political ads that were targeted at voters.\n\n\n\n\nAbout the Creator of the Dashboard\n\n\n\n\n\n\n\n\n\n\n\nFabio Votta is a Postdoc at the University of Amsterdam who studies (online) political microtargeting and its usage around the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  BlueSky\n  Twitter\n  Personal Website\n\n\n\n\n\n\n\n\n\nWant to see how political parties target you? Sign up at Who Targets Me and download the gratis browser plugin to see how parties on Facebook use your data:\nhttps://whotargets.me/\n\n\n\n\n\n\n\nWant to retrieve targeting data from the Facebook Ad Library yourself? This dashboard is powered by the R package: metatargetr. Check it out here:\nhttps://github.com/favstats/metatargetr"
+  }
+]

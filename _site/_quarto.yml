@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: ../docs
+  
+website:
+  title: "Global Spinners"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Spending"
+      - sidebar:targeting
+    right:
+      - href: about.qmd
+        text: "About"
+  sidebar:
+    - id: ""
+    - id: targeting
+      title: "Targeting"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - targeting.qmd
+        - detailed.qmd
+        - demographics.qmd
+  search: false
+  
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    fontsize: 1.2em
+
